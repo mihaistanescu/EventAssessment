@@ -1,4 +1,4 @@
-{
+var rootTemplate = {
 "id":"1c59cdf7-bd9c-441d-b49c-e1655db4bcc9",
 "name":"Reputational Risk",
 "score":null,
