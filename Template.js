@@ -1,12 +1,12 @@
 var rootTemplate = {
-id: ko.observable("1c59cdf7-bd9c-441d-b49c-e1655db4bcc9"),
-name: ko.observable("Reputational Risk"),
-score: ko.observable(null),
-weight: ko.observable(null),
-weightedScore: ko.observable(null),
-formula: ko.observable("Impact + Scrutiny"),
-order: ko.observable(0),
-selectedAssessmentId: ko.observable(null),
+"id": "1c59cdf7-bd9c-441d-b49c-e1655db4bcc9",
+"name":"Reputational Risk",
+"score":null,
+"weight":null,
+"weightedScore":null,
+"formula":"Impact + Scrutiny",
+"order":0,
+"selectedAssessmentId":null,
 "childAssessments":{
 "assessmentsCorrelation":"AND",
 "assessments":[
