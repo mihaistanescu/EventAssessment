@@ -19,7 +19,7 @@
         var self = this;
         self.CurrentPage = numericObservable(1);
         self.TotalItemCount = ko.computed(totalItemCount);
-        self.PageSize = numericObservable(itemsPerPage());
+        self.PageSize = ko.computed(itemsPerPage);
         self.PageSlide = numericObservable(2);
 
         self.LastPage = ko.computed(function () {
